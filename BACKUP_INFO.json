@@ -1,0 +1,27 @@
+{
+  "nombre": "Transportes M&M - Respaldo Completo del Código",
+  "fecha": "2025-07-23T19:29:12.066Z",
+  "version": "1.0.0",
+  "descripcion": "Respaldo completo del código fuente antes de deployment APK",
+  "contenido": {
+    "client/": "Código React frontend con componentes UI",
+    "server/": "Backend Express.js con APIs y WebSocket",
+    "shared/": "Schemas y tipos compartidos TypeScript",
+    "android/": "Proyecto nativo Android con Capacitor",
+    "scripts/": "Scripts de construcción y deployment",
+    "package.json": "Dependencias y configuración del proyecto",
+    "capacitor.config.ts": "Configuración de la APK nativa",
+    "replit.md": "Documentación completa del proyecto",
+    "attached_assets/": "Logos y recursos visuales",
+    "uploads/": "Archivos subidos por usuarios"
+  },
+  "estadisticas": {
+    "totalArchivos": 323,
+    "tamañoAproximado": "Calculando..."
+  },
+  "instrucciones": {
+    "restauracion": "Extraer archivos y ejecutar: npm install && npm run build",
+    "deployment": "Para APK: cd android && ./gradlew assembleDebug",
+    "servidor": "Para servidor: npm run dev"
+  }
+}
